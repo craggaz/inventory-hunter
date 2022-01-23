@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.11.0a3-slim-bullseye
 RUN apt update
 RUN apt install -y chromium chromium-driver locales locales-all xvfb
 
